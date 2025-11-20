@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Explore the World</h1>
+
+    <button>Book Now</button>
+  </header>
+  <div class="intro">
+    <p>Discover breathtaking beaches, ancient temples, and vibrant countries from around the globe.
+      Whether you're planning your next adventure or simply exploring new cultures, our curated recommendations will inspire your journey.
+    </p>
+  </div>
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Search destinations..." />
+    <button onclick="search()">Search</button>
+    <button onclick="clearResults()">Clear</button>
+  </section>
+
+  <section id="results"></section>
+
+  <footer>
+    <p>Follow us:</p>
+    <div class="social-icons">
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" /></a>
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" /></a>
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="X" /></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
